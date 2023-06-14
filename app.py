@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 #Lendo a base de dados e tratanto a base de dados
-df_idhm_esp = pd.read_csv('./venv/IDHM_ESP.csv')
+df_idhm_esp = pd.read_csv('IDHM_ESP.csv')
 
 #Titulo de Página
 st.title('IDHM-SP: Índice de Desenvolvimento Humano do Estado de São Paulo')
